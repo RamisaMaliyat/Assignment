@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Test Suite">
+    <test name="WP Dark Mode Test">
+        <classes>
+            <class name="Main"/>
+        </classes>
+    </test>
+</suite>
