@@ -6,19 +6,20 @@ This repository contains an automated test suite for validating the functionalit
 ## Scenarios 
 The following scenarios are automated by the test suite:
 
-1. **Log in to your WordPress site**.
-2. **Check if the WP Dark Mode plugin is active**:
+1. Log in to your **WordPress site**.
+2. Check if the **WP Dark Mode plugin** is active
    - If active, proceed to the settings.
    - If not, install and activate the plugin.
-3. **Enable Admin Dashboard Dark Mode**:
+3. Enable **Admin Dashboard Dark Mode**
    - Go to *Controls → Admin Panel Dark Mode*.
-4. **Validate that dark mode works on the Admin Dashboard**.
-5. **Navigate to WP Dark Mode → Customization → Switch Settings**:
+   - Validate that dark mode works on the Admin Dashboard.
+5. Navigate to **WP Dark Mode → Customization → Switch Settings**
    - Change the **Floating Switch Style** to a different option.
    - **Customize Floating Switch Size** to 220.
    - **Position the Floating Switch** to the Right.
-   - **Enable Keyboard Shortcut** from *Accessibility Settings*.
-6. **Enable Page-Transition Animation** and change the animation effect.
+   - Enable **Keyboard Shortcut** from *Accessibility Settings*.
+6. **Customization → Site Animation → Enable Page-Transition Animation**
+   - Change the Animation Effect from the default selections.
 7. Verify the functionality of dark mode on the **Frontend Dark Mode**.
 
 ### Notes
