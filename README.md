@@ -27,7 +27,7 @@ Save the settings after every change.
 
 Before running the test suite, make sure to have the following:
 - **Java** (version 20.0 or later)
-- Install **Local**
+- **Local** (for hosting WordPress locally)
 - A **WordPress site** with the **WP Dark Mode plugin** installed
 
 ## Setup Instructions
@@ -38,12 +38,16 @@ Before running the test suite, make sure to have the following:
    git clone https://github.com/RamisaMaliyat/Assignment.git
   
 2. **Install dependencies:**:
-    Install pom.xml
+    Ensure that Maven is set up to handle dependencies in the pom.xml file.
+   ou can install dependencies by running:
+
+   ```bash
+   mvn clean install
    
-3. **Install Plugin:**:
-    Install envfile plugin.
+4. **Install Plugin:**:
+    Install the EnvFile plugin to manage environment variables.
    
-4. **Set up environment variables**:
+5. **Set up environment variables**:
     Create a .env file in the root directory (Refer to .env.example for guidance).
 
 ## Running the Test Suite
