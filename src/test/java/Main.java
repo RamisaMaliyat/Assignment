@@ -232,10 +232,12 @@ public class Main extends Base
         if (divClass.contains("bg-blue-600"))
         {
             Assert.assertTrue(divClass.contains("bg-blue-600"), "The toggle should be enabled but is not.");
+            System.out.println("the toggle is enabled");
         }
         else if (divClass.contains("bg-slate-200"))
         {
             Assert.assertTrue(divClass.contains("bg-slate-200"), "The toggle should be disabled but is not.");
+            System.out.println("the toggle is disable");
         } else
         {
             Assert.fail("Could not determine the state of the toggle.");
