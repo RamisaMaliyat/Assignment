@@ -57,7 +57,10 @@ Before running the test suite, make sure to have the following:
    Run testing.xml
 ## GitHub Actions
 The test suite is set up to run automatically using GitHub Actions. The workflow file is located in:
-     **.github/workflows/run-tests.yml**
+
+      ```bash
+   git clone https://github.com/RamisaMaliyat/Assignment.git
+   
 Whenever code is pushed to the repository, GitHub Actions will automatically run the test suite.
 
 ## Reporting Bugs and Feature Requests
