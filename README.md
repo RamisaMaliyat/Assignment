@@ -20,7 +20,7 @@ The following scenarios are automated by the test suite:
 8. **Disable Keyboard Shortcut** from *Accessibility Settings*.
 9. **Enable Page-Transition Animation** and change the animation effect.
 
-### Notes:
+### Notes
 Save the settings after every change.
 
 ## Prerequisites
@@ -32,22 +32,22 @@ Before running the test suite, make sure to have the following:
 
 ## Setup Instructions
 
-1. **Clone the repository**:
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/RamisaMaliyat/Assignment.git
   
-2. **Install dependencies:**:
+2. **Install dependencies**
     Ensure that Maven is set up to handle dependencies in the pom.xml file.
    ou can install dependencies by running:
 
    ```bash
    mvn clean install
    
-4. **Install Plugin:**:
+4. **Install Plugin**
     Install the EnvFile plugin to manage environment variables.
    
-5. **Set up environment variables**:
+5. **Set up environment variables**
     Create a .env file in the root directory (Refer to .env.example for guidance).
 
 ## Running the Test Suite
