@@ -63,4 +63,4 @@ The test suite is set up to run automatically using GitHub Actions. The workflow
 Whenever code is pushed to the repository, GitHub Actions will automatically run the test suite.
 
 ## Reporting Bugs and Feature Requests
-To find bugs or have suggestions, please open an issue in the repository. 
+To find bugs or suggestions, please open an issue in the repository. 
