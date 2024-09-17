@@ -15,10 +15,11 @@ The following scenarios are automated by the test suite:
 4. **Validate that dark mode works on the Admin Dashboard**.
 5. **Navigate to WP Dark Mode → Customization → Switch Settings**:
    - Change the **Floating Switch Style** to a different option.
-6. **Customize the Switch Size** to 220.
-7. **Reposition the Floating Switch** to the left.
-8. **Disable Keyboard Shortcut** from *Accessibility Settings*.
-9. **Enable Page-Transition Animation** and change the animation effect.
+   - **Customize Floating Switch Size** to 220.
+   - **Position the Floating Switch** to the Right.
+   - **Enable Keyboard Shortcut** from *Accessibility Settings*.
+6. **Enable Page-Transition Animation** and change the animation effect.
+7. Verify the functionality of dark mode on the **Frontend Dark Mode**.
 
 ### Notes
 Save the settings after every change.
