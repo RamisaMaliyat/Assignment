@@ -23,7 +23,7 @@ The following scenarios are automated by the test suite:
 ### Notes:
 Save the settings after every change.
 
-### Prerequisites
+## Prerequisites
 
 Before running the test suite, make sure to have the following:
 - **Java** (version 20.0 or later)
